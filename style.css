@@ -1,0 +1,142 @@
+@font-face {
+  font-family: Yantramanav-Regular;
+  src: url("fonts/Yantramanav-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: #cccccc;
+  font-family: Yantramanav-Regular;
+  size: 14px;
+}
+
+table {
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+}
+
+h5 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+span,
+p {
+  font-size: 14px;
+  font-weight: normal;
+  color: #5a5a5a;
+}
+
+a {
+  text-decoration: none;
+  color: #3179b4;
+}
+
+.wrapper {
+  max-width: 600px;
+  table-layout: fixed;
+  background-color: #fff;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.table-style {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+  background-color: #fff;
+}
+
+.bg-img {
+  background-image: url("images/Pozadina.png");
+  width: 600px;
+  background-size: 506px 254px;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center;
+}
+
+.blue-line {
+  color: #3179b4;
+  border-bottom: 2px solid #3179b4;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.mt35 {
+  margin-top: 35px;
+}
+
+.mt-mb7 {
+  margin: 7px 0;
+}
+
+.mb7-mt14 {
+  margin: 14px 0 7px 0;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb7 {
+  margin-bottom: 7px;
+}
+
+.mt-14 {
+  margin-top: 14px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.pr4 {
+  padding-right: 4px;
+}
+
+.pr8 {
+  padding-right: 8px;
+}
+
+.gray-line {
+  border-bottom: 1px solid #b9b5b5;
+}
+
+.table-gray-border {
+  margin-top: 25px;
+  padding: 6px 6px 10px 6px;
+  border: 2px solid #5a5a5a;
+  width: 100%;
+}
+
+.d-block {
+  display: block;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.v-align-middle {
+  vertical-align: middle;
+}
+
+.v-align-toptext {
+  vertical-align: text-top;
+}
+
+.font-size12 {
+  font-size: 12px;
+}
